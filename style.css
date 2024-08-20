@@ -1,0 +1,24 @@
+
+article > h4 {
+   font-family: 'Courier New', Courier, monospace;
+   color: blue;
+}
+
+article > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .sezione_plus {
+    background-color: gainsboro;
+}
+
+.primo_articolo {
+   background-image: linear-gradient(white, gainsboro);
+}
+
+button:hover {
+   background-color: yellow;
+   color: black;
+ }
+
+
