@@ -1,24 +1,50 @@
-
-article > h4 {
-   font-family: 'Courier New', Courier, monospace;
-   color: blue;
+* {
+   font-family: "Montserrat", sans-serif;
 }
 
-article > p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
-
- .sezione_plus {
-    background-color: gainsboro;
+nav {
+   background-color: rgba(38, 38, 38, 0.744);
 }
 
-.primo_articolo {
-   background-image: linear-gradient(white, gainsboro);
+.logoAulab {
+   width: 100px;
+   height: 100px;
 }
 
-button:hover {
-   background-color: yellow;
+.link {
+   text-decoration: none;
+   color: white;
+}
+
+.listlink {
+   list-style-type: none;
+}
+
+header {
+   background-image: url(./media/background.jpg);
+   height: 80vh;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+
+}
+
+h1 {
+   color: white;
+   font-size: 50px;
+}
+
+.linkHome {
+   color: white;
+   text-decoration: none;
+}
+
+.btnArticle {
+   background-color: rgba(38, 38, 38, 0.744);
+   color: white;
+}
+
+.btnArticle:hover {
+   background-color: rgb(216, 216, 87);
    color: black;
- }
-
-
+}
